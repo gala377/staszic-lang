@@ -2,6 +2,16 @@
 
 This lesson solely focuses on the examplary C++ project template.
 
+## Version Control System
+
+TODO -
+    git overview/
+    github/bitbucket
+    simple commands - status, add, commmit, push, pull, branch (later)
+    gitignore
+
+## Build System
+
 Some languages like [Rust](TODO_hyperlink) or [Go](TODO_hyperlink) have
 tools for project managment already bundled up with their installation.
 Other like C++ or [Haskell](TODO_hyperlink) only come with their compiler
@@ -15,7 +25,7 @@ and managing all the dependencies.
 For one, two-file projects that alone might be fine, but for any more
 complicated project, which might be extended later, a proper build system is required.
 
-## What is a build system
+### What is a build system
 
 A build system lifts project managment to higher abstraction layer.
 For build system to work, usually, user needs to write special
@@ -33,7 +43,7 @@ You may ask ["tests?"](hyperlink_to_wiki), ["build targets"](hyperlink_to_wiki).
 and so on. Google hold answers to all of theese questions, as well as this and
 later lessons in this course.
 
-## Our build system
+### Our build system
 
 As said before C++ doesn't come with build system.
 However there are some which can be considered popular.
@@ -44,7 +54,7 @@ For this course we'll use [`CMake`](TODO_heprlink). For Linux CMake generates
 `MakeFiles` which are then used by the program [`make`](TODO_hyperlink) to build
 the whole project. So theese two will be necessary to proceed.
 
-## Prequisitions
+### Prequisitions
 
 As said above there are some things we need to ensure to have installed.
 
@@ -53,19 +63,30 @@ on linux. On Windows there is MSVC, however as all of the examples
 it this course are prepared on linux using Windows for this course is discouraged.
 What's more this course will use C++17 features so it's importat
 to ensure that the chosen compiler supports them in the version
-you have installed. 
+you have installed.
 * C++ IDE supporting CMakeLists. Not necessary but would really help.
-[`Clion`](todo_hyperlink) does the trich and is free for students.
+[`Clion`](todo_hyperlink) does the trick and is free for students.
 For free alternative `VSCode` with `clangd`, `CMake` and `CMake Tools` extensions
 with generated `compile_commands.json` file works fine as well.
 
 * CMake- TODO
 * Make - TODO
 
-the rest is consirdered TODO
+the rest is considered TODO
+
+### Project structure
 
 ## Reasources
 
 todo
 
-make, cmake, cmake tutorial, clang, gcc, msvc
+* make,
+* cmake,
+* cmake tutorial,
+* clang,
+* gcc,
+* msvc,
+* git,
+* git book,
+* github,
+* bitbucket,
