@@ -16,4 +16,9 @@ set(CMAKE_CXX_FLAGS_RELEASE "{CMAKE_CXX_FLAGS} -o4")
 set(CMAKE_CXX_COMPILER "/usr/local/bin/clang++")
 
 include_directories(inc)
+
 add_subdirectory(src)
+add_subdirectory(tests)
+
+enable_testing()
+add_test(NAME All COMMAND Test)
