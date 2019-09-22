@@ -13,7 +13,7 @@ set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS} -Wall")
 set(CMAKE_CXX_FLAGS_RELEASE "{CMAKE_CXX_FLAGS} -o4") 
  # set the compiler we'll use
  # set it to the path of the one you use
-set(CMAKE_CXX_COMPILER "/usr/local/bin/clang++")
+set(CMAKE_CXX_COMPILER "clang++")
 
 include_directories(inc)
 add_subdirectory(src)
