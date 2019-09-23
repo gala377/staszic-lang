@@ -1,8 +1,11 @@
 #define BOOST_TEST_MODULE Hello_Tests_Module
 
 #include <string>
-#include <hello/hello.h>
+
 #include <boost/test/unit_test.hpp>
+
+#include <hello/hello.hpp>
+
 
 BOOST_AUTO_TEST_SUITE(Lib_Hello_tests)
 
