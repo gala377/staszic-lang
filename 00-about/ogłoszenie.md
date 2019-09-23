@@ -1,7 +1,7 @@
 ## Krótki opis:
 
 Programistyczne Kółko Niealgorytmiczne (nazwa tymczasowa).
-W ramach koła będzie każdy będzie miał szansę
+W ramach koła każdy będzie miał okazje
 napisać własny język programowania i interpreter do niego. Będzie można 
 nauczyć się jak wygląda kompilacja języka od tekstu do programu.
 Jednak przede wszystkim celem koła jest nauczanie dobrych praktyk
