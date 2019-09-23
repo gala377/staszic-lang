@@ -23,13 +23,14 @@ języka będą mogły implementować prosty język funkcyjny wymyślony przez pr
 Projekt będzie pisany w C++. 
 
 Zajęcia będą wyglądały następująco. Na początku będzie poprowadzony wykład.
-Wykład będzie trwał zapewne od 1 do 2 godz. Jeżeli uczestnicy wyrażą chęć
+Wykład będzie trwał zapewne od 0.5 do 1 godz. Jeżeli uczestnicy wyrażą chęć
 wykłady będą mogły być krótsze, po prostu będą pokrywały mniejszy zakres materiału
 na raz. Po wykładzie nastąpi szybkie przedstawienie części praktycznej zajęć.
 Następująca jest część praktyczna zajęć, w której uczestnicy będą mogli powtórzyć
 sobie informacje przedstawione w trakcie wykładu przez wprowadzenie ich bezpośrednio
 do powstającego projektu. Na miejscu będzie 2 prowadzących, którzy w każdej chwili
-mogą pomóc. Czas pojedynczych zajęć przewidywany jest od 3 do 5 godz.
+mogą pomóc. Czas pojedynczych zajęć przewidywany jest od 3 do 4 godz. 
+(przy czym nie powinno być problemu żeby wyjść wcześniej, a może nawet zostać dłużej).
 Ponieważ zajęć jest mniej niż tygodni w pojedynczym roku akademickim nie ma problemu
 żeby część praktyczną dowolnej części kółka przedłużyć o kolejny tydzień.
 Mile widziane też będzie eksperymentowanie ze strony uczestników i praca samodzielna 
