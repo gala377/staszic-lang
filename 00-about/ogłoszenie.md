@@ -7,11 +7,11 @@ nauczyć się jak wygląda kompilacja języka od tekstu do programu.
 Jednak przede wszystkim celem koła jest nauczanie dobrych praktyk
 programistycznych tak żeby dobrze zarządzać projektami i pisać
 kod, który da się swobodnie rozwijać. Interpreter jest po prostu
-projektem przy, przy którym dużo można się nauczyć.
+projektem, przy którym dużo można się nauczyć.
 
 ## Długi opis:
 
-Koło nie ma jeszcze nazwy, więc może osoby uczestniczące po jakimś czasie coś wymyślą.
+Koło nie ma jeszcze oficjalnej nazwy, więc może osoby uczestniczące po jakimś czasie coś wymyślą.
 
 Tematyką koła jest stworzenie, od początku do końca, małego projektu wprowadzając po drodze
 zagadnienia z tematyki inżynierii oprogramowania. Celem kółka jest nauczanie dobrych
@@ -84,7 +84,7 @@ Plan kółka jest następujący:
 
 Czego oczekuje się od uczestników:
 
-### Wymagane wymagane
+### Minimum
 
 Wymagana jest znajomość paradygmatów programowania imperatywnego w C++:
 
@@ -92,14 +92,16 @@ Wymagana jest znajomość paradygmatów programowania imperatywnego w C++:
 * Instrukcje pętli (`while`, `for`).
 * Struktury (`struct`).
 * Jakieś pojęcie czym są wskaźniki (`int*`).
+* Tablice (`int[]`).
 * Umiejętność poradzenia sobie w swoim środowisku (jak używamy windowsa to umiemy
-dodać program do ścieżki w terminalu/konsoli).
+dodać program do ścieżki tak żeby móc go użyć w terminalu/konsoli).
 * Funkcje.
 * Typy wyliczeniowe (`enum`).
 * Umiejętność i chęć szukania pomocy w internecie 
-(prawdopodobnie dokumentacje C++ albo stack overflow).
+(prawdopodobnie dokumentacja C++ albo stack overflow).
+* Jakieś pojęcie o alokacji dynamicznej (`new` i `delete`).
 
-### Bardzo mile widziane
+### Mile widziane
 
 Te pojęcia pojawią się w trakcie koła i będą wytłumaczone, ale
 znajomość ich pomoże nam jako prowadzącym, bo prościej będzie
