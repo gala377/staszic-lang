@@ -66,19 +66,21 @@ Plan kółka jest następujący:
     Stos, stera, pamięć globalna i statyczna - program w pamięci systemu.
     Alokacja na stercie a alokacja na stosie
     Polimorfizm w C++ - dlaczego musimy używać wskaźników albo referencji.
-6.  Wprowadzenie do analizy składniowej gramatyk *LL(1)*.
+6.  Analiza leksykalna programu.
+    Implementacja analizatora składniowego.
+7.  Wprowadzenie do analizy składniowej gramatyk *LL(1)*.
     Implementacja analizatora składniowego (Parser rekursywnie zstępujący).
     Wprowadzenie do reprezentacji pośredniej programu.
     Tworzenie abstrakcyjnego drzewa składniowego programu.
-7.  Wprowadzenie do wzorców projektowych.
+8.  Wprowadzenie do wzorców projektowych.
     Wzorzec projektowy wizytatora do analizy drzewa składniowego.
     Implementacja klasy przedstawiającej drzewo składniowe w konsoli.
-8.  Wprowadzenie do programowania funkcyjnego.
+9.  Wprowadzenie do programowania funkcyjnego.
     Refaktoryzacja analizatora składniowego z użyciem paradygmatów funkcyjnych.
-9.  Wprowadzenie do interpretacji.
+10.  Wprowadzenie do interpretacji.
     *REPL* (*Read Evaluate Print Loop*).
     Implementacja pętli *REPL* dla wyrażeń.
-10. Tablice symboli.
+11. Tablice symboli.
     Stos jako sposób przekazywania argumentów do funkcji.
 
 ## Wymagania
