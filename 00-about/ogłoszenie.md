@@ -1,6 +1,6 @@
 ## Krótki opis:
 
-Programistyczne Kółko Niealgorytmiczne (nazwa tymczasowa).
+Praktyczne Kółko Programistyczne (aka PKP).
 W ramach koła każdy będzie miał okazje
 napisać własny język programowania i interpreter do niego. Będzie można 
 nauczyć się jak wygląda kompilacja języka od tekstu do programu.
@@ -10,8 +10,6 @@ kod, który da się swobodnie rozwijać. Interpreter jest po prostu
 projektem, przy którym dużo można się nauczyć.
 
 ## Długi opis:
-
-Koło nie ma jeszcze oficjalnej nazwy, więc może osoby uczestniczące po jakimś czasie coś wymyślą.
 
 Tematyką koła jest stworzenie, od początku do końca, małego projektu wprowadzając po drodze
 zagadnienia z tematyki inżynierii oprogramowania. Celem kółka jest nauczanie dobrych
