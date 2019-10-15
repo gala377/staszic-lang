@@ -1,0 +1,35 @@
+Symbols:
+
+letter = 'A' ... 'Z' | 'a' ... 'z';
+digit = '0' ... '9';
+digit_wo_zero = '1' ... '9';
+identifier = letter, { digit | letter | '_' };
+integer = digit_wo_zero, { digit };
+
+Syntax:
+expression = arithmetic_expression | conditional_expression;
+
+conditional_expression = "if", logic_expression, "then", expression, "else", expression;
+
+function_parameters = expression, { ',', expression };
+function_call = identifier, '(', [ function_parameters ], ')';
+
+arithmetic_expression = add_sub_expression;
+
+add_sub_expression = mul_div_expression, { ('+' | '-'), mul_div_expression };
+mul_div_expression = unary_expression, { ('*' | '/'), unary_expression };
+unary_expression = [ '-' ], primary_expression;
+primary_expression = identifier | integer | function_call | '(', expression, ')';
+
+
+logic_expression     = less_expression | greater_expression | equal_expression | not_equal_expression;
+
+less_expression      = expression, '<', expression;
+greater_expression   = expression, '>', expression;
+equal_expression     = expression, '=', expression;
+not_equal_expression = expression, "!=", expression;
+
+function_arguments = identifier, { ',', identifier };
+function_definition = "def", identifier, '(', [ function_arguments ], ')', "=>", expression;
+
+program = { function_definition }, expression;
