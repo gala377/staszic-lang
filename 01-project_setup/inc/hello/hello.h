@@ -1,11 +1,11 @@
-#ifndef __HELLO_HELLO_H__
-#define __HELLO_HELLO_H__
+#ifndef HELLO_HELLO_H_
+#define HELLO_HELLO_H_
 
 #include <string>
 
 namespace hello {
 
-    void greet(std::string const& name);
+    void greet(const std::string& name);
 
 }
 

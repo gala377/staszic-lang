@@ -2,6 +2,6 @@
 
 #include <hello/hello.h>
 
-void hello::greet(std::string const& name) {
+void hello::greet(const std::string& name) {
     std::cout << "Hello " << name << "\n";
 }
