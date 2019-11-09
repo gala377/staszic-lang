@@ -1,5 +1,5 @@
-#ifndef __HELLO_HELLO_H__
-#define __HELLO_HELLO_H__
+#ifndef __HELLO_HELLO_HPP__
+#define __HELLO_HELLO_HPP__
 
 #include <string>
 

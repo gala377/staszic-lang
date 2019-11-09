@@ -1,17 +1,15 @@
 ## Krótki opis:
 
-Programistyczne Kółko Niealgorytmiczne (nazwa tymczasowa).
-W ramach koła będzie każdy będzie miał szansę
+Praktyczne Kółko Programistyczne (aka PKP).
+W ramach koła każdy będzie miał okazje
 napisać własny język programowania i interpreter do niego. Będzie można 
 nauczyć się jak wygląda kompilacja języka od tekstu do programu.
 Jednak przede wszystkim celem koła jest nauczanie dobrych praktyk
 programistycznych tak żeby dobrze zarządzać projektami i pisać
 kod, który da się swobodnie rozwijać. Interpreter jest po prostu
-projektem przy, przy którym dużo można się nauczyć.
+projektem, przy którym dużo można się nauczyć.
 
 ## Długi opis:
-
-Koło nie ma jeszcze nazwy, więc może osoby uczestniczące po jakimś czasie coś wymyślą.
 
 Tematyką koła jest stworzenie, od początku do końca, małego projektu wprowadzając po drodze
 zagadnienia z tematyki inżynierii oprogramowania. Celem kółka jest nauczanie dobrych
@@ -23,13 +21,14 @@ języka będą mogły implementować prosty język funkcyjny wymyślony przez pr
 Projekt będzie pisany w C++. 
 
 Zajęcia będą wyglądały następująco. Na początku będzie poprowadzony wykład.
-Wykład będzie trwał zapewne od 1 do 2 godz. Jeżeli uczestnicy wyrażą chęć
+Wykład będzie trwał zapewne od 0.5 do 1 godz. Jeżeli uczestnicy wyrażą chęć
 wykłady będą mogły być krótsze, po prostu będą pokrywały mniejszy zakres materiału
 na raz. Po wykładzie nastąpi szybkie przedstawienie części praktycznej zajęć.
 Następująca jest część praktyczna zajęć, w której uczestnicy będą mogli powtórzyć
 sobie informacje przedstawione w trakcie wykładu przez wprowadzenie ich bezpośrednio
 do powstającego projektu. Na miejscu będzie 2 prowadzących, którzy w każdej chwili
-mogą pomóc. Czas pojedynczych zajęć przewidywany jest od 3 do 5 godz.
+mogą pomóc. Czas pojedynczych zajęć przewidywany jest od 3 do 4 godz. 
+(przy czym nie powinno być problemu żeby wyjść wcześniej, a może nawet zostać dłużej).
 Ponieważ zajęć jest mniej niż tygodni w pojedynczym roku akademickim nie ma problemu
 żeby część praktyczną dowolnej części kółka przedłużyć o kolejny tydzień.
 Mile widziane też będzie eksperymentowanie ze strony uczestników i praca samodzielna 
@@ -65,26 +64,28 @@ Plan kółka jest następujący:
     Stos, stera, pamięć globalna i statyczna - program w pamięci systemu.
     Alokacja na stercie a alokacja na stosie
     Polimorfizm w C++ - dlaczego musimy używać wskaźników albo referencji.
-6.  Wprowadzenie do analizy składniowej gramatyk *LL(1)*.
+6.  Analiza leksykalna programu.
+    Implementacja analizatora składniowego.
+7.  Wprowadzenie do analizy składniowej gramatyk *LL(1)*.
     Implementacja analizatora składniowego (Parser rekursywnie zstępujący).
     Wprowadzenie do reprezentacji pośredniej programu.
     Tworzenie abstrakcyjnego drzewa składniowego programu.
-7.  Wprowadzenie do wzorców projektowych.
+8.  Wprowadzenie do wzorców projektowych.
     Wzorzec projektowy wizytatora do analizy drzewa składniowego.
     Implementacja klasy przedstawiającej drzewo składniowe w konsoli.
-8.  Wprowadzenie do programowania funkcyjnego.
+9.  Wprowadzenie do programowania funkcyjnego.
     Refaktoryzacja analizatora składniowego z użyciem paradygmatów funkcyjnych.
-9.  Wprowadzenie do interpretacji.
+10.  Wprowadzenie do interpretacji.
     *REPL* (*Read Evaluate Print Loop*).
     Implementacja pętli *REPL* dla wyrażeń.
-10. Tablice symboli.
+11. Tablice symboli.
     Stos jako sposób przekazywania argumentów do funkcji.
 
 ## Wymagania
 
 Czego oczekuje się od uczestników:
 
-### Wymagane wymagane
+### Minimum
 
 Wymagana jest znajomość paradygmatów programowania imperatywnego w C++:
 
@@ -92,14 +93,16 @@ Wymagana jest znajomość paradygmatów programowania imperatywnego w C++:
 * Instrukcje pętli (`while`, `for`).
 * Struktury (`struct`).
 * Jakieś pojęcie czym są wskaźniki (`int*`).
+* Tablice (`int[]`).
 * Umiejętność poradzenia sobie w swoim środowisku (jak używamy windowsa to umiemy
-dodać program do ścieżki w terminalu/konsoli).
+dodać program do ścieżki tak żeby móc go użyć w terminalu/konsoli).
 * Funkcje.
 * Typy wyliczeniowe (`enum`).
 * Umiejętność i chęć szukania pomocy w internecie 
-(prawdopodobnie dokumentacje C++ albo stack overflow).
+(prawdopodobnie dokumentacja C++ albo stack overflow).
+* Jakieś pojęcie o alokacji dynamicznej (`new` i `delete`).
 
-### Bardzo mile widziane
+### Mile widziane
 
 Te pojęcia pojawią się w trakcie koła i będą wytłumaczone, ale
 znajomość ich pomoże nam jako prowadzącym, bo prościej będzie

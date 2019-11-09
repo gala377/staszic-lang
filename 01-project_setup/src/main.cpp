@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include <hello/hello.h>
+#include <hello/hello.hpp>
 
 int main() {
     hello::greet("Staszic");
