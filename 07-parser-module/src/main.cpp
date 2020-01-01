@@ -2,23 +2,15 @@
 #include <string>
 
 #include <source/string.hpp>
+#include <lexer/lexer.hpp>
+#include <parser/parser.hpp>
 
 using namespace std::string_literals;
 
 int main() {
-    source::String s{"Hello"s};
-    std::cout << "First character " << s.curr() << '\n';
-    s.bump();
-    std::cout << "Bump and second char: " << s.curr() << '\n';
-    std::cout << "And peek: " << s.peek() << '\n';
-    s.bump();
-    s.bump();
-    s.bump();
-    s.bump();
-    s.bump();
-    s.bump();
-    s.bump();
-    std::cout << "Bumping past end: " << s.curr() << '\n';
-    std::cout << "And peek: " << s.peek() << '\n';
+    source::String s{"2 + 2 * 2 + ( - 1 )"s};
+    lexer::Lexer l{s};
+    parser::Parser p{l};
+    auto ast = p.parse();
     return 0;
 }
